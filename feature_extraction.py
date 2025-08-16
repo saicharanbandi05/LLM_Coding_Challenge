@@ -2,10 +2,6 @@ import numpy as np
 import librosa
 
 def extract_features(entry, n_mfcc=13, max_len=8000):
-    """
-    Extract MFCC features from an audio sample.
-    Pads or trims to fixed length.
-    """
     arr = entry['audio']['array']
     sr = entry['audio']['sampling_rate']
 
