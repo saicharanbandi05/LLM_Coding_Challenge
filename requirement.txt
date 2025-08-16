@@ -2,4 +2,4 @@ numpy
 librosa
 scikit-learn
 datasets
-sounddevice
+sounddevice 
