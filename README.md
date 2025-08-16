@@ -16,7 +16,19 @@ This project is a lightweight prototype that listens to spoken digits (0–9) an
 - The model was trained and evaluated on the **Free Spoken Digit Dataset (FSDD)**, an open dataset containing WAV files of spoken digits (0–9) by multiple English speakers.
 - Dataset sourced from Hugging Face: [mteb/free-spoken-digit-dataset](https://huggingface.co/datasets/mteb/free-spoken-digit-dataset)
 
-## Results
+## Architecture
+
+
+fsdd_digit_classifier/
+│
+├── dataset_loader.py       # dataset loading function
+├── feature_extraction.py   # extract_features function
+├── model_training.py       # training + evaluation
+├── prediction.py           # prediction utilities
+├── recorder.py             # live recording & prediction
+├── utils.py                # helper functions (optional)
+└── main.py                 # main pipeline orchestrating everything
+
 
 - Achieved approximately **92% accuracy** on a stratified 80/20 train-test split.
 - Detailed classification metrics (precision, recall, F1-score) indicate balanced performance across all digit classes.

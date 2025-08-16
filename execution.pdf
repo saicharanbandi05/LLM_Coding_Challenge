@@ -1,0 +1,48 @@
+Free Spoken Digit Dataset Classifier - Execution Steps
+=====================================================
+
+1. Prerequisites
+---------------
+- Ensure Python 3.8 or higher is installed.
+- Use a virtual environment (recommended) to isolate dependencies.
+
+2. Clone the Repository
+-----------------------
+git clone https://username:access_token@your-repository-url.git
+cd LLM_Coding_Challenge.git
+
+3. Create and Activate Virtual Environment
+------------------------------------------
+# On macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+
+4. Install Required Libraries
+-----------------------------
+pip install -r requirements.txt
+
+5. Configure Environment Variables
+---------------------------------
+Create a `.env` file in the root directory with the following content:
+
+SAMPLE_RATE=8000
+N_MFCC=13
+MAX_LEN=8000
+MODEL_PATH="model/random_forest.pkl"
+
+6. Run the Main Program
+-----------------------
+python main.py
+
+
+7. Notes
+--------
+- The program downloads the Free Spoken Digit Dataset automatically.
+- For microphone input, ensure your mic is set up and permissions granted.
+- To retrain or evaluate with different parameters, adjust `.env` values accordingly.
+
+Enjoy your project!
