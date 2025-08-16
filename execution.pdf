@@ -38,7 +38,6 @@ MODEL_PATH="model/random_forest.pkl"
 -----------------------
 python main.py
 
-
 7. Notes
 --------
 - The program downloads the Free Spoken Digit Dataset automatically.
