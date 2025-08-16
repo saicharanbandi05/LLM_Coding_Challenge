@@ -3,9 +3,6 @@ import sounddevice as sd
 from prediction import predict_digit
 
 def record_and_predict_digit(clf, duration=1, fs=8000):
-    """
-    Records audio from microphone and predicts spoken digit.
-    """
     print("\nSpeak a digit (0–9) after the beep...")
 
     # Beep sound
