@@ -21,6 +21,10 @@ This project is a lightweight prototype that listens to spoken digits (0–9) an
 
 fsdd_digit_classifier/
 │
+├── .env.development
+├── execution.pdf
+├── fsdd-env.zip
+├── README.md
 ├── dataset_loader.py       # dataset loading function
 ├── feature_extraction.py   # extract_features function
 ├── model_training.py       # training + evaluation
