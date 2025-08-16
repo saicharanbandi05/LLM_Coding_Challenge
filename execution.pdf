@@ -9,7 +9,7 @@ Free Spoken Digit Dataset Classifier - Execution Steps
 2. Clone the Repository
 -----------------------
 git clone https://username:access_token@your-repository-url.git
-cd LLM_Coding_Challenge.git
+cd LLM_Coding_Challenge
 
 3. Create and Activate Virtual Environment
 ------------------------------------------
@@ -44,5 +44,3 @@ python main.py
 - The program downloads the Free Spoken Digit Dataset automatically.
 - For microphone input, ensure your mic is set up and permissions granted.
 - To retrain or evaluate with different parameters, adjust `.env` values accordingly.
-
-Enjoy your project!
