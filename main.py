@@ -30,7 +30,6 @@ def main():
     print(f"\nExample prediction: True label={true_label}, Predicted={predicted}")
 
     # 7. Live recording test (uncomment if you have mic)
-    # record_and_predict_digit(clf)
 
 if __name__ == "__main__":
     main()
