@@ -22,3 +22,12 @@ def record_and_predict_digit(clf, duration=1, fs=8000):
     pred = predict_digit(audio, sr=fs, clf=clf)
     print(f"Predicted digit: {pred}")
     return pred
+    # for Loop predictions: 
+    # try:
+    #     while True:
+    #         record_and_predict_digit(clf)
+    # except KeyboardInterrupt:
+    #     print("\nExiting live prediction.")
+    
+    predicted_digit = record_and_predict_digit(clf)
+    print(f"\nPredicted digit from microphone: {predicted_digit}")
