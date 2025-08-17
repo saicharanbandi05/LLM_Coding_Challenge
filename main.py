@@ -29,7 +29,14 @@ def main():
     true_label = y_test[idx]
     print(f"\nExample prediction: True label={true_label}, Predicted={predicted}")
 
-    # 7. Live recording test (uncomment if you have mic)
+    # try:
+    #     while True:
+    #         record_and_predict_digit(clf)
+    # except KeyboardInterrupt:
+    #     print("\nExiting live prediction.")
+    
+    predicted_digit = record_and_predict_digit(clf)
+    print(f"\nPredicted digit from microphone: {predicted_digit}")
 
 if __name__ == "__main__":
     main()
