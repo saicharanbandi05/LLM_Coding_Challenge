@@ -74,5 +74,13 @@ fsdd_digit_classifier/
 | LLM collaboration       | Used LLM throughout for prompt-based coding, debugging, error diagnosis, and architectural guidance.                 |
 | Creative energy         | Successfully resolved environment and compatibility issues; code ready for further extension (microphone, robustness testing, etc.). |
 
+#Future Work#
+
+1. Try deep learning models like CNNs or RNNs for higher accuracy.
+2. Add noise augmentation so the model works better in real-world conditions.
+3. Make the classifier speaker-independent so it generalizes across voices.
+4. Add confidence calibration so predictions come with uncertainty scores.
+5. And finally, package this into a web or mobile app for live digit recognition.
+
 
 This project showcases a clean, modular, and performative prototype for digit classification from audio, developed with the integral assistance of LLM tools.
